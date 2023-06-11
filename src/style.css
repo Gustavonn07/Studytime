@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --pricipal: #3535E6;
+    --principal-escura: #0000ae;
+    --pricipal-clara: #5454FF;
+    --complementar: #E6C535;
+    --complementar-escura: #997E05;
+}
+
+.background {
+    position: relative;
+    width: auto;
+    height: 60vh;
+    top: 0;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-image: url(images/study-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 40%;
+}
+
+.background::before {
+    content: '';
+    display: block;
+    width: auto;
+    height: 60vh;
+    top: 0;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color: #0000aecc;
+    width: auto;
+}
