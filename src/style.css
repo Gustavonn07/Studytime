@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
 
 *{
     margin: 0;
@@ -6,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
 }
 
 :root {
@@ -17,8 +19,8 @@
 }
 
 .background {
-    position: relative;
-    width: auto;
+    position: absolute;
+    width: 100vw;
     height: 60vh;
     top: 0;
     border-bottom-left-radius: 20%;
@@ -39,4 +41,47 @@
     border-bottom-right-radius: 20%;
     background-color: #0000aecc;
     width: auto;
+}
+
+.background h1 {
+    position: absolute;
+    top: 5vh;
+    left: 0vw;
+    right: 0vw;
+    font-size: 13vh;
+    color: #fff;
+    text-align: center;
+}
+
+.background p {
+    position: absolute;
+    top: 25vh;
+    left: 0vw;
+    right: 0vw;
+    font-size: 3vh;
+    color: #fff;
+    text-align: center;
+}
+
+.background ul {
+    position: absolute;
+    top: 40vh;
+    left: 0vw;
+    right: 0vw;
+    display: flex;
+    gap: 3vw;
+    font-size: 6vh;
+    justify-content: center;
+}
+
+.background ul a li i {
+    color: var(--complementar);
+    transition-duration: 200ms;
+}
+
+.background ul a li i:hover {
+    color: var(--complementar-escura);
+    transition-duration: 200ms;
+    cursor: pointer;
+    font-size: 7vh;
 }
