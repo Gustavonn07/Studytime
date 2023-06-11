@@ -8,6 +8,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Geologica', sans-serif;
+    background-origin: padding-box;
 }
 
 :root {
@@ -19,9 +20,9 @@
 }
 
 .background {
-    position: absolute;
-    width: 100vw;
-    height: 60vh;
+    position: relative;
+    width: 100%;
+    height: 75vh;
     top: 0;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -34,8 +35,8 @@
 .background::before {
     content: '';
     display: block;
-    width: auto;
-    height: 60vh;
+    width: 100%;
+    height: 75vh;
     top: 0;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -45,7 +46,7 @@
 
 .background h1 {
     position: absolute;
-    top: 5vh;
+    top: 8vh;
     left: 0vw;
     right: 0vw;
     font-size: 13vh;
@@ -55,7 +56,7 @@
 
 .background p {
     position: absolute;
-    top: 25vh;
+    top: 30vh;
     left: 0vw;
     right: 0vw;
     font-size: 3vh;
@@ -65,7 +66,7 @@
 
 .background ul {
     position: absolute;
-    top: 40vh;
+    top: 45vh;
     left: 0vw;
     right: 0vw;
     display: flex;
@@ -85,3 +86,68 @@
     cursor: pointer;
     font-size: 7vh;
 }
+
+main {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+#objetivos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+}
+
+#objetivos h2 {
+    font-size: 7vh;
+    color: var(--pricipal);
+}
+
+#objetivos ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.objetivosLi h3{
+    text-align: center;
+    width: 200px;
+    font-size: 4vh;
+    color: var(--pricipal-clara);
+}
+
+.objetivosLi:not(.orga) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+}
+
+.orga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}
+
+.objetivosLi img {
+    width: 100px;
+}
+
+.objetivosLi::before {
+    content: '';
+    position: absolute;
+    top: 110vh;
+    display: block;
+    border: 4px solid var(--complementar);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
