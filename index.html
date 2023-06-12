@@ -52,20 +52,20 @@
             <h2>Tutorial</h2>
             <ul>
                 <li class="cards">
-                    <h3>Timer</h3>
+                    <h3>Cronômetro</h3>
                     <p>
-                        <span>Passo 1 Inicie o timer:</span> <br>
+                        <span>Passo 1 Inicie o cronômetro:</span> <br>
                         clique em "Iniciar". <br>
                     </p>
 
                     <p>
-                        <span>Passo 2 Pause o timer (opcional):</span> <br>
-                        Se você precisar pausar o timer, geralmente há um botão "Pausar", para iniciar novamente clique em "Iniciar". <br>
+                        <span>Passo 2 Pause o cronômetro (opcional):</span> <br>
+                        Se você precisar pausar o cronômetro, geralmente há um botão "Pausar", para iniciar novamente clique em "Iniciar". <br>
                     </p>
 
                     <p>
-                        <span>Passo 3 Reinicie o timer (opcional):</span> <br>
-                        Se você deseja reiniciar o timer para começar de novo, procure um botão "Reiniciar".
+                        <span>Passo 3 Reinicie o cronômetro (opcional):</span> <br>
+                        Se você deseja reiniciar o cronômetro para começar de novo, procure um botão "Reiniciar".
                     </p>
                 </li>
                 <li class="cards">
@@ -74,8 +74,23 @@
                 </li>
             </ul>
         </section>
+
+        <section class="timer" data-aos="fade-up" data-aos-duration="300">
+            <h2>Meu Cronômetro</h2>
+            <p class="relogio">00:00:00</p>
+            <p>
+              <button class="iniciar">iniciar</button>
+              <button class="pausar">pausar</button>
+              <button class="zerar">reiniciar</button>
+            </p>
+          </section>
+
+          <section class="todo">
+
+          </section>
     </main>
 
+    <script src="src/scripts/timer.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

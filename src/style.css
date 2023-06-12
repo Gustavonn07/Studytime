@@ -198,3 +198,47 @@ main {
     color: var(--complementar);
 }
 
+.timer {
+    width: 100%;
+    margin-top: 10vh;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer h2 {
+    color: var(--principal);
+    font-size: 7vh;
+}
+
+.timer button {
+    background: var(--principal);
+    color: #fff;
+    font-size: 3vh;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2vh;
+    box-shadow: 0 1px 3px black;
+    transition-duration: 200ms;
+}
+
+.timer button:hover {
+    transition-duration: 200ms;
+    background: var(--principal-escura);
+    box-shadow: -1px -1px 1px black;
+}
+
+.relogio {
+    font-size: 10vh;
+    color: var(--pricipal-clara);
+}
+
+.pausado {
+    color: var(--complementar);
+}
