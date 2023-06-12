@@ -342,3 +342,33 @@ main {
     transition-duration: 200ms;
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--pricipal-clara);
+    height: 10vh;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+footer ul li {
+    color: #fff;
+}
+
+footer h5 {
+    font-size: 1.8vh;
+}
+
+footer h6 {
+    font-size: 1.5vh;
+}
