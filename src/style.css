@@ -88,6 +88,10 @@
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 10vh;
     margin-bottom: 20vh;
 }
@@ -98,6 +102,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 0.5vh;
+    width: 100%;
 }
 
 #objetivos h2 {
@@ -241,4 +246,99 @@ main {
 
 .pausado {
     color: var(--complementar);
+}
+
+.to-do {
+    width: 50%;
+    margin-top: 5vh;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--principal-escura);
+    background-color: var(--pricipal-clara);
+    box-shadow: 0 2px 7px #000;
+}
+
+.to-do h2 {
+    color: var(--principal-escura);
+    font-size: 7vh;
+}
+
+.to-do p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vh;
+    gap: 2vw;
+}
+
+.to-do input{
+    height: 5vh;
+    font-size: 3vh;
+    background-color: var(--complementar);
+    box-shadow: 0 1px 10px var(--principal-escura);
+    border-radius: 5px;
+}
+
+.to-do input:focus {
+    outline: 3px solid var(--complementar-escura);
+    border-radius: 5px;
+}
+
+.to-do .btn-tarefa {
+    height: 5vh;
+    background-color: var(--complementar-escura);
+    box-shadow: 0 5px 13px var(--principal-escura);
+    border-radius: 10px;
+    padding: 0.3vw;
+    font-size: 2vh;
+    color: #fff;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.to-do .btn-tarefa:hover {
+    height: 5vh;
+    background-color: #806b03;
+    transition-duration: 200ms;
+}
+
+.to-do ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 65%;
+    margin-top: 5vh;
+    background-color: var(--principal);
+    border-radius: 10px;
+    padding: 1vh;
+}
+
+.to-do ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vh;
+    color: #fff;
+    align-items: center;
+}
+
+.to-do ul li button {
+    font-size: 2.5vh;
+    background-color: var(--complementar-escura);
+    box-shadow: 0 5px 8px var(--principal-escura);
+    padding: 0.3vw;
+    color: #cb0e0e;
+    border-radius: 5px;
+    transition-duration: 200ms;
+}
+
+.to-do ul li button:hover {
+    color: #ad0b0b;
+    background-color: #806b03;
+    transition-duration: 200ms;
+    cursor: pointer;
 }
