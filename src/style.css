@@ -283,6 +283,7 @@ main {
     box-shadow: 0 1px 10px var(--principal-escura);
     border-radius: 5px;
     padding: 1vw;
+    color: #fff;
 }
 
 .to-do input:focus {
@@ -295,8 +296,8 @@ main {
     background-color: var(--complementar-escura);
     box-shadow: 0 5px 13px var(--principal-escura);
     border-radius: 10px;
-    padding: 0.3vw;
-    font-size: 2vh;
+    padding: 0.5vw;
+    font-size: 2.5vh;
     color: #fff;
     transition-duration: 200ms;
     cursor: pointer;
@@ -328,18 +329,16 @@ main {
 }
 
 .to-do ul li button {
+    background-color: transparent;
     font-size: 2.5vh;
-    background-color: var(--complementar-escura);
-    box-shadow: 0 5px 8px var(--principal-escura);
     padding: 0.3vw;
-    color: #cb0e0e;
+    color: #ffffff;
     border-radius: 5px;
     transition-duration: 200ms;
 }
 
 .to-do ul li button:hover {
-    color: #ad0b0b;
-    background-color: #806b03;
+    color: #ff6f6f;
     transition-duration: 200ms;
     cursor: pointer;
 }
