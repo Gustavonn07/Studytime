@@ -21,10 +21,4 @@ Para criar esse site usei meus conhecimentos de:
       <img alt="Gustavo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 - AOS animation
 - MediaQuerys
-
-## Problemas:
-Falta finalizar os MediaQuerys.
-
-
-      
       
