@@ -204,7 +204,7 @@ main {
 }
 
 .timer {
-    width: 100%;
+    width: 50%;
     margin-top: 10vh;
     background: #fff;
     padding: 20px;
@@ -213,6 +213,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 5px 12px #00000030;
 }
 
 .timer h2 {
@@ -258,13 +259,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--principal-escura);
-    background-color: var(--pricipal-clara);
-    box-shadow: 0 2px 7px #000;
+    box-shadow: 0 5px 12px #00000030;
 }
 
 .to-do h2 {
-    color: var(--principal-escura);
+    color: var(--principal);
     font-size: 7vh;
 }
 
@@ -280,7 +279,7 @@ main {
     height: 5vh;
     font-size: 3vh;
     background-color: var(--complementar);
-    box-shadow: 0 1px 10px var(--principal-escura);
+    box-shadow: 0 1px 10px #00000030;
     border-radius: 5px;
     padding: 1vw;
     color: #fff;
@@ -293,8 +292,8 @@ main {
 
 .to-do .btn-tarefa {
     height: 5vh;
-    background-color: var(--complementar-escura);
-    box-shadow: 0 5px 13px var(--principal-escura);
+    background-color: var(--complementar);
+    box-shadow: 0 1px 10px #00000030;
     border-radius: 10px;
     padding: 0.5vw;
     font-size: 2.5vh;
@@ -315,7 +314,7 @@ main {
     gap: 1vh;
     width: 65%;
     margin-top: 5vh;
-    background-color: var(--principal);
+    background-color: var(--pricipal-clara);
     border-radius: 10px;
     padding: 1vh;
 }
