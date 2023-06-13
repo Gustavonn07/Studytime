@@ -282,6 +282,7 @@ main {
     background-color: var(--complementar);
     box-shadow: 0 1px 10px var(--principal-escura);
     border-radius: 5px;
+    padding: 1vw;
 }
 
 .to-do input:focus {
