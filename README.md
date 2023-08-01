@@ -1,4 +1,4 @@
-<h1 align='center'>StudyTime (v1.0)</h1>
+<h1 align='center'>StudyTime (v1.0.0)</h1>
 
 ## Objetivo:
 Ajudar estudantes a manter o foco, organização e diciplina com 2 elementos que podem ser utilizados gratuitamente:
