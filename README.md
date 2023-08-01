@@ -1,11 +1,11 @@
-<h1 align='center'>StudyTime (v1.0.0)</h1>
+<h1 align='center'>StudyTime (v1.0.1)</h1>
 
 ## Objetivo:
 Ajudar estudantes a manter o foco, organização e diciplina com 2 elementos que podem ser utilizados gratuitamente:
 - Cronômetro
 - Criador de roteiros (salva na nuvem)
 
-#### Link: https://gustavonn07.github.io/Studytime/
+#### Link: https://studytime-nu.vercel.app/
 
 ![image](https://github.com/Gustavonn07/Studytime/assets/84361085/09935dae-d594-4459-9784-22570c152be0)
 ![image](https://github.com/Gustavonn07/Studytime/assets/84361085/3ae4ceeb-3e71-4a9d-b055-8381e70c464d)
@@ -23,3 +23,5 @@ Para criar esse site usei meus conhecimentos de:
 - AOS animation
 - MediaQuerys
       
+## Atualizações:
+- v1.0.1: Adicionado dominio vercel.app.
