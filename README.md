@@ -5,6 +5,11 @@ Ajudar estudantes a manter o foco, organização e diciplina com 2 elementos que
 - Cronômetro
 - Criador de roteiros (salva na nuvem)
 
+## Objetivos Futuros:
+- Implementar React + Typescript.
+- Implementar Styled-components.
+- Melhorar roteiro.
+
 #### Link: https://studytime-nu.vercel.app/
 
 ![image](https://github.com/Gustavonn07/Studytime/assets/84361085/09935dae-d594-4459-9784-22570c152be0)
